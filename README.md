@@ -1,9 +1,6 @@
 # Docker Image for Shopinvader Wagon
 
-Wagon is the local tool to renderer the LocomotiveCMS template.
+Wagon is the local tool to render and develop the LocomotiveCMS templates.
 More information here: https://locomotive-v3.readme.io/docs
 
-This image includ wagon + shopinvader plugin so you can directly use it without take care on installing the ruby stack
-
-
-
+This image includes both Wagon and the Shopinvader plugin so you can directly use it without taking care of installing the Ruby stack on your computer.
