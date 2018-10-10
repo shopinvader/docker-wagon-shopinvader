@@ -1,0 +1,14 @@
+networks:
+  default:
+    external:
+      name: dy
+services:
+  wagon:
+    environment:
+      - VIRTUAL_HOST=docker-wagon.dy
+      - VIRTUAL_PORT=3333
+    image: quay.io/akretion/docky-ruby:latest
+    volumes:
+      - .:/workspace
+      - ./bundle:/usr/local/bundle
+version: '3'
