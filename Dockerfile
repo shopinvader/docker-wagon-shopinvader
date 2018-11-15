@@ -1,4 +1,4 @@
-FROM quay.io/akretion/docky-ruby:latest
+FROM quay.io/akretion/docky-ruby:20181010
 
 COPY Gemfile /gems/Gemfile
 COPY Gemfile.lock Gemfile.lock
