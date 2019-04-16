@@ -6,13 +6,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'locomotivecms_wagon', '~> 2.4.0'
-gem 'locomotivecms_steam', github: 'akretion/steam', branch: 'v1.4.x.shopinvader'
-
+gem 'locomotivecms_wagon'
+gem 'locomotivecms_steam', github: 'akretion/steam', branch: 'master-pending-merge'
 
 group :misc do
-  gem 'shop_invader', github: 'akretion/locomotive_shopinvader', branch: 'v3.4.x'
+  gem 'shop_invader', github: 'akretion/locomotive_shopinvader', branch: 'v4.0.x'
 end
-
-gem 'byebug'
-gem 'guard-livereload', '~> 2.5.1'
