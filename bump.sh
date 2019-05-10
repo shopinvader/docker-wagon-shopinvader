@@ -1,3 +1,5 @@
+#!/bin/bash
+set -e
 rm Gemfile.lock
 docky run bundle install
 git add Gemfile Gemfile.lock
