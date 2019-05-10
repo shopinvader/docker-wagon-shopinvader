@@ -6,9 +6,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'locomotivecms_wagon'
-gem 'locomotivecms_steam', github: 'akretion/steam', branch: 'master-pending-merge'
+gem 'locomotivecms_wagon', github: 'locomotivecms/wagon'
+gem 'locomotivecms_steam', github: 'locomotivecms/steam'
 
 group :misc do
-  gem 'shop_invader', github: 'akretion/locomotive_shopinvader', branch: 'v4.0.x'
+  gem 'shop_invader', github: 'shopinvader/locomotive-shopinvader', branch: 'v4.0.x'
 end
