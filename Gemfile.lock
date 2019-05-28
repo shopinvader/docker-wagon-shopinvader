@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/locomotivecms/steam.git
-  revision: 9f7bf2d8183140f543090cd6839167b4368d253f
+  revision: 28222438af3ddffcd69a18e9c215f8e37d9fc453
   specs:
     locomotivecms_steam (1.5.0.rc0)
       RedCloth (~> 4.3.2)
@@ -32,7 +32,7 @@ GIT
 
 GIT
   remote: https://github.com/locomotivecms/wagon.git
-  revision: 9ce037a35352950f916a167d632a00d6e4dd8df9
+  revision: 58da0f72349e559fb05941243f71ba0f51f70115
   specs:
     locomotivecms_wagon (3.0.0.rc0)
       faker (~> 1.6)
@@ -49,11 +49,12 @@ GIT
 
 GIT
   remote: https://github.com/shopinvader/locomotive-shopinvader.git
-  revision: 4a262a0ef126558aea2d27aa2536468fa0c0715c
+  revision: c89cadf3bf5a125afeaa338eecab3ee7b44d81e2
   branch: v4.0.x
   specs:
     shop_invader (0.1.0)
       algoliasearch (~> 1.13.0)
+      elasticsearch (~> 6.2.0)
       faraday (~> 0.15.2)
 
 GEM
@@ -100,6 +101,14 @@ GEM
       multi_json (~> 1.0)
       rack (>= 1.3)
     duktape (2.0.1.1)
+    elasticsearch (6.2.0)
+      elasticsearch-api (= 6.2.0)
+      elasticsearch-transport (= 6.2.0)
+    elasticsearch-api (6.2.0)
+      multi_json
+    elasticsearch-transport (6.2.0)
+      faraday
+      multi_json
     execjs (2.7.0)
     faker (1.9.3)
       i18n (>= 0.7)
@@ -159,7 +168,7 @@ GEM
     oj (3.7.12)
     pony (1.13.1)
       mail (>= 2.0)
-    public_suffix (3.0.3)
+    public_suffix (3.1.0)
     puma (3.12.1)
     rack (2.0.7)
     rack-cache (1.7.2)
