@@ -6,8 +6,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'locomotivecms_wagon', github: 'locomotivecms/wagon', ref: 'b90e5eaee68216804ceac25825693e528a4aed24'
-gem 'locomotivecms_steam', github: 'locomotivecms/steam', ref: '77fa10c6156da36c423065dcdb22c42e595b70df'
+gem 'locomotivecms_wagon', github: 'locomotivecms/wagon'
+gem 'locomotivecms_steam', github: 'locomotivecms/steam'
 
 group :misc do
   gem 'shop_invader', github: 'shopinvader/locomotive-shopinvader', branch: 'v4.0.x'
