@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/locomotivecms/steam.git
-  revision: 3c6cdc93aa347630c4a295d9343da097727dd496
+  revision: 98dfc4f2994d6defc25284a2e5464081f20d7a9f
   specs:
     locomotivecms_steam (1.5.0.rc0)
       RedCloth (~> 4.3.2)
@@ -49,7 +49,7 @@ GIT
 
 GIT
   remote: https://github.com/shopinvader/locomotive-shopinvader.git
-  revision: d09c76b1f834870a0a4ca0d0b92fec09a245ef3d
+  revision: d7cb7f14e9943699551e8eabd439e93c3d48c5e2
   branch: v4.0.x
   specs:
     shop_invader (0.1.0)
@@ -95,7 +95,7 @@ GEM
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     concurrent-ruby (1.1.5)
-    crass (1.0.4)
+    crass (1.0.5)
     dragonfly (1.2.0)
       addressable (~> 2.3)
       multi_json (~> 1.0)
@@ -123,7 +123,7 @@ GEM
       mime-types (~> 3.0)
       multi_xml (>= 0.5.2)
     httpclient (2.8.3)
-    i18n (1.6.0)
+    i18n (1.7.0)
       concurrent-ruby (~> 1.0)
     json (2.2.0)
     kramdown (1.16.2)
@@ -149,11 +149,11 @@ GEM
       mini_mime (>= 0.1.1)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2019.0904)
+    mime-types-data (3.2019.1009)
     mimetype-fu (0.1.2)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
-    minitest (5.12.2)
+    minitest (5.13.0)
     moneta (1.0.0)
     morphine (0.1.1)
     multi_json (1.13.1)
@@ -161,7 +161,7 @@ GEM
     multipart-post (2.1.1)
     neatjson (0.8.4)
     netrc (0.11.0)
-    nokogiri (1.10.4)
+    nokogiri (1.10.5)
       mini_portile2 (~> 2.4.0)
     nokogumbo (1.5.0)
       nokogiri
