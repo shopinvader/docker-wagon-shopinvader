@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'locomotivecms_wagon', github: 'locomotivecms/wagon'
+gem 'locomotivecms_wagon', github: 'akretion/wagon', branch: 'fix-slug-404-issue'
 gem 'locomotivecms_steam', github: 'locomotivecms/steam'
 
 group :misc do
