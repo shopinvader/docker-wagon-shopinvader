@@ -1,4 +1,14 @@
 GIT
+  remote: https://github.com/akretion/locomotive-shopinvader.git
+  revision: 5f9501cb6863f573ea47b1f6a9864e9bae6acabb
+  branch: fix-esi-snippet
+  specs:
+    shop_invader (0.1.0)
+      algoliasearch (~> 1.13.0)
+      elasticsearch (~> 6.2.0)
+      faraday (~> 0.15.2)
+
+GIT
   remote: https://github.com/akretion/steam.git
   revision: 6c5e52b8397489b02f7b8e3e67011e58ba3c1843
   branch: better-attribute-parser
@@ -50,16 +60,6 @@ GIT
       oj (~> 3.9.2)
       puma (~> 4.3.0)
       thor (~> 0.20.3)
-
-GIT
-  remote: https://github.com/shopinvader/locomotive-shopinvader.git
-  revision: 7c4bade4e4016f47a1274f04c2b115a693479564
-  branch: v4.0.x
-  specs:
-    shop_invader (0.1.0)
-      algoliasearch (~> 1.13.0)
-      elasticsearch (~> 6.2.0)
-      faraday (~> 0.15.2)
 
 GEM
   remote: https://rubygems.org/
@@ -130,7 +130,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.13.1)
       faraday (>= 0.7.4, < 1.0)
-    ffi (1.11.3)
+    ffi (1.12.1)
     haml (5.1.2)
       temple (>= 0.8.0)
       tilt
