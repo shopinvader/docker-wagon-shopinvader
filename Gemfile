@@ -7,7 +7,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'locomotivecms_wagon', github: 'akretion/wagon', branch: 'fix-slug-404-issue'
-gem 'locomotivecms_steam', github: 'akretion/steam', branch: 'better-attribute-parser'
+gem 'locomotivecms_steam', github: 'akretion/steam', branch: 'rebase-better-attribute-parser'
 
 group :misc do
   gem 'shop_invader', github: 'akretion/locomotive-shopinvader', branch: 'fix-esi-snippet'

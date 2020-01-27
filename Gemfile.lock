@@ -10,8 +10,8 @@ GIT
 
 GIT
   remote: https://github.com/akretion/steam.git
-  revision: 6c5e52b8397489b02f7b8e3e67011e58ba3c1843
-  branch: better-attribute-parser
+  revision: 080b2280f2e9c155f3bfbeb21d66c7122dded80c
+  branch: rebase-better-attribute-parser
   specs:
     locomotivecms_steam (1.5.1)
       RedCloth (~> 4.3.2)
@@ -236,4 +236,4 @@ DEPENDENCIES
   shop_invader!
 
 BUNDLED WITH
-   2.1.2
+   1.17.2
