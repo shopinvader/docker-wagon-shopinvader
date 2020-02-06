@@ -10,5 +10,5 @@ gem 'locomotivecms_wagon', github: 'akretion/wagon', branch: 'fix-slug-404-issue
 gem 'locomotivecms_steam', github: 'akretion/steam', branch: 'rebase-better-attribute-parser'
 
 group :misc do
-  gem 'shop_invader', github: 'akretion/locomotive-shopinvader', branch: 'fix-esi-snippet'
+  gem 'shop_invader', github: 'shopinvader/locomotive-shopinvader', branch: 'v4.0.x'
 end
