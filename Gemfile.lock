@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/akretion/steam.git
-  revision: 080b2280f2e9c155f3bfbeb21d66c7122dded80c
-  branch: rebase-better-attribute-parser
+  revision: 6bb75d8af6626c43c9a21e844160287c80611e06
+  branch: all-fixes
   specs:
-    locomotivecms_steam (1.5.1)
+    locomotivecms_steam (1.5.3)
       RedCloth (~> 4.3.2)
       autoprefixer-rails (~> 8.0.0)
       bcrypt (~> 3.1.11)
@@ -21,7 +21,7 @@ GIT
       moneta (~> 1.0.0)
       morphine (~> 0.1.1)
       multi_json (~> 1.13.1)
-      nokogiri (~> 1.10.4)
+      nokogiri (~> 1.10.8)
       parser (~> 2.7)
       pony (~> 1.12)
       rack-cache (~> 1.7.0)
@@ -66,7 +66,7 @@ GEM
   specs:
     RedCloth (4.3.2)
     abstract_type (0.0.7)
-    activesupport (5.2.4.1)
+    activesupport (5.2.4.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -178,18 +178,18 @@ GEM
     neatjson (0.8.4)
     netrc (0.11.0)
     nio4r (2.5.2)
-    nokogiri (1.10.8)
+    nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     nokogumbo (1.5.0)
       nokogiri
     oj (3.9.2)
-    parser (2.7.0.2)
+    parser (2.7.0.5)
       ast (~> 2.4.0)
     pony (1.13.1)
       mail (>= 2.0)
     procto (0.0.3)
     public_suffix (4.0.3)
-    puma (4.3.1)
+    puma (4.3.3)
       nio4r (~> 2.0)
     rack (2.2.2)
     rack-cache (1.7.2)
