@@ -53,7 +53,7 @@ GIT
 
 GIT
   remote: https://github.com/shopinvader/locomotive-shopinvader.git
-  revision: 4c1baa66d702b22c3b14dbe8110770f3dc10134a
+  revision: cd7814773f45874083d163ac5102b629a3ec4d41
   branch: v4.0.x
   specs:
     shop_invader (0.1.0)
@@ -188,7 +188,7 @@ GEM
     pony (1.13.1)
       mail (>= 2.0)
     procto (0.0.3)
-    public_suffix (4.0.4)
+    public_suffix (4.0.5)
     puma (4.3.3)
       nio4r (~> 2.0)
     rack (2.2.2)
