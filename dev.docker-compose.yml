@@ -1,6 +1,6 @@
 services:
   wagon:
-    image: quay.io/akretion/docky-ruby:latest
+    image: ghcr.io/akretion/docky-ruby:latest
     volumes:
       - .:/workspace
       - ./bundle:/usr/local/bundle

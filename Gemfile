@@ -6,8 +6,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'locomotivecms_wagon', github: 'akretion/wagon', branch: 'fix-slug-404-issue'
-gem 'locomotivecms_steam', github: 'akretion/steam', branch: 'all-fixes'
+gem 'locomotivecms_steam', '=1.6.0'
+gem 'locomotivecms_wagon', github: 'akretion/wagon', branch: 'fix-slug-404-issue-rebased'
 
 group :misc do
   gem 'shop_invader', github: 'shopinvader/locomotive-shopinvader', branch: 'v4.0.x'
