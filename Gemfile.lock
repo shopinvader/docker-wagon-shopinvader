@@ -178,6 +178,7 @@ GEM
     multi_xml (0.7.2)
       bigdecimal (~> 3.1)
     multipart-post (2.4.1)
+    mutex_m (0.3.0)
     neatjson (0.10.5)
     net-imap (0.5.9)
       date
@@ -241,6 +242,7 @@ PLATFORMS
 
 DEPENDENCIES
   locomotivecms_wagon!
+  mutex_m
   shop_invader!
 
 BUNDLED WITH
