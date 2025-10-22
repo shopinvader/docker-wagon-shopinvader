@@ -7,6 +7,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'mutex_m'
+# it's a master branch + one commit for solving specific issue with 404 page
 gem 'locomotivecms_wagon', github: 'akretion/wagon', branch: 'fix-slug-404-issue-rebased-8566800'
 
 group :misc do
