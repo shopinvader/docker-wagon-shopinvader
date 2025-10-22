@@ -1,4 +1,4 @@
-FROM ghcr.io/akretion/docky-ruby:latest
+FROM --platform=linux/amd64 ghcr.io/akretion/docky-ruby:latest
 
 RUN DEBIAN_FRONTEND=noninteractive \
     && apt-get update \
