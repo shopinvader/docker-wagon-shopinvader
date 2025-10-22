@@ -7,9 +7,8 @@ git_source(:github) do |repo_name|
 end
 
 gem 'mutex_m'
-gem 'locomotivecms_wagon', github: 'locomotivecms/wagon', branch: 'master'
-
+gem 'locomotivecms_wagon', github: 'akretion/wagon', branch: 'fix-slug-404-issue-rebased-8566800'
 
 group :misc do
-  gem 'shop_invader', github: 'shopinvader/locomotive-shopinvader', branch: 'upgrade-for-wagon-3-2'
+  gem 'shop_invader', github: 'shopinvader/locomotive-shopinvader', branch: 'v4.0.x'
 end
