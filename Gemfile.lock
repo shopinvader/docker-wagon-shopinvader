@@ -53,7 +53,7 @@ GEM
       json (>= 1.5.1)
     attr_extras (7.1.0)
     base64 (0.3.0)
-    bcrypt (3.1.20)
+    bcrypt (3.1.22)
     bigdecimal (3.3.1)
     chronic (0.10.2)
     colorize (1.1.0)
