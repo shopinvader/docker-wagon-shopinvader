@@ -183,7 +183,7 @@ GEM
     multipart-post (2.4.1)
     mutex_m (0.3.0)
     neatjson (0.10.5)
-    net-imap (0.6.3)
+    net-imap (0.6.4)
       date
       net-protocol
     net-pop (0.1.2)
